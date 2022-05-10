@@ -1,0 +1,399 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Site Title -->
+    <title>سيرة</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+
+    <!-- All CSS Here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="off-menu-wrapper">
+
+
+        <div class="inner-wrapper" style="left: 0px;"> <a id="close-off-menu" class="close-off-menu" name="startFromTop" style="display: none;"></a>
+
+            <!--Side Navigation - On Mobile and Tablet-->
+            <nav id="side-nav" class="side-nav hidden-desktop" style="left: -250px;">
+                <ul>
+                    <li><a href="categroies.html"><span class="icon categoriesNav"></span>التصنيفات</a></li>
+                    <li><a href="categroies.html"><span class="icon browseNav"></span>الاخبار</a></li>
+                    <li><a href="contact.html"><span class="icon browseNav"></span>اتصل بنا</a></li>
+                </ul>
+                <!--Social Media-->
+                <div class="social-media hidden-desktop">
+                    <a rel="nofollow" target="_blank" class="facebook" href=""></a>
+                    <a rel="nofollow" target="_blank" class="twitter" href=""></a>
+                    <a rel="nofollow" target="_blank" class="instagram" href=""></a>
+
+                </div>
+                <!--/Social Media-->
+            </nav>
+            <!--/Side Navigation - On Mobile and Tablet-->
+
+
+            <!--Header-->
+            <header id="header" class="header home" style="left: 0px;">
+                <div class="row block-content">
+                    <!--Logo-->
+                    <div class="columns large-4 medium-11 small-10 logo-box"> <a href="index.html" class="logo"><img src="img/logo/logo.png" alt=""></a></div>
+                    <!--/Logo-->
+
+                    <!--Top Navigation-->
+                    <!--Top Navigation-->
+                    <nav id="top-nav" class="columns large-8 top-nav hidden-mobile hidden-tablet">
+                        <ul>
+                            <li><a href="categroies.html"><span></span>التصنيفات</a></li>
+
+
+                            <li><a href="categroies.html"><span class="icon browseNav"></span>الاخبار</a></li>
+                            <li><a href="contact.html"><span class="icon browseNav"></span>اتصل بنا</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--Off Canvas Menu-->
+                    <div id="menu-icon" class="columns medium-1 small-2 menu-icon">
+                        <a id="off-menu-icon" class="off-menu-icon">
+                            <span class="top line" style="position: static; top: 8px; transform: rotate(0deg);"></span>
+                            <span class="middle line" style="display: block;"></span>
+                            <span class="bottom line" style="position: static; top: 8px; transform: rotate(0deg);"></span>
+                        </a> <span id="off-menu-closeIcon" class="close" style="display: none;"></span>
+                    </div>
+                    <!--/Off Canvas Menu-->
+                </div>
+            </header>
+            <!--/Header-->
+            <!--Main Area-->
+            <section class="main-area row">
+
+
+
+                <!--Main Block-->
+                <div class="main-block">
+                    <div id="middle-block" class="middle-block">
+
+                        <!--Brief-->
+                        <p class="brief">اول موقع عربي متخصص في السيرة الذاتية
+                        </p>
+                        <!--/Brief-->
+
+                        <!--Search-->
+
+                        <div id="search_home" class="search home">
+
+                            <form id="searchform" role="search" class="clearfix">
+
+                                <input type="submit" value="" class="btn">
+                                <input itemprop="query-input" name="q" value="" type="search" id="searchbar" placeholder="ابحث هنا..." class="field">
+
+
+                            </form>
+                            <script>
+                                function searchcheck() {
+                                    var search = document.getElementById("searchbar");
+                                    if (search.value == "") {
+                                        search.focus();
+                                        return false;
+                                    } else
+                                        return true;
+                                }
+
+                            </script>
+
+                        </div>
+
+
+                        <!--/Search-->
+
+                    </div>
+                </div>
+                <!--/Main Block-->
+
+
+
+
+
+            </section>
+            <!--/Main Area-->
+
+
+
+
+
+
+
+        </div>
+    </div>
+    
+        	<!-- contact-detail-->
+   <section class="contact-form-area">
+        <div class="container">
+<!--
+            <div class="sec-title">
+                <h1>Get Touch With Us</h1>
+                <span class="border"></span>
+          
+            </div>
+-->
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <div class="contact-form">
+                        <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post" novalidate="novalidate">
+                            <h2>اكتب بياناتك</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="form_name" value="" placeholder="الاسم بالكامل*" required="" aria-required="true">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="form_email" value="" placeholder="بريدك الاليتكروني*" required="" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="form_phone" value="" placeholder="رقم الهاتف">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="form_subject" value="" placeholder="الموضوع">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea name="form_message" placeholder="رسالتك.." required="" aria-required="true"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                    <button class="thm-btn bgclr-1" type="submit" data-loading-text="Please wait...">ارسال </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="quick-contact">
+                        <div class="title">
+                            <h2>تواصل معنا</h2>
+                        </div>
+                        <ul class="contact-info">
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-pin"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h5><span>العنوان:</span> 
+Maadi-1115-Fake Street 
+<br>Cairo-Egypt</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-technology"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h5><span>الهاتف:</span> (123) 0200 12345 &amp;<br>1800-45-678-9012</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-interface"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h5><span>البريد الاليكتروني:</span> infp@exampel.com</h5>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="social-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer Area Wrapper -->
+    <footer>
+
+        <!-- footer widget area -->
+        <div class="footer-widget-area">
+            <div class="container">
+                <!-- Footer Social Bar -->
+                <ul class="footer-social wow fadeInUp" data-wow-delay="0.3s">
+
+                    <li><a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="www.google.com"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+                <div class="row">
+                    <!-- Single Footer Wid -->
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="single-footer-wid footer-about">
+                            <a href="index.html"><img src="img/logo/logo-3.png" alt="Prolax" class="img-fluid"></a>
+
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Wid -->
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="single-footer-wid footer-links">
+
+                            <ul>
+                                <li><a href="terms.html">سياسة الاستخدام</a></li>
+                                <li><a href="catigories.html">التصنيفات</a></li>
+                                <li><a href="contact.html">اتصل بنا</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Wid -->
+
+                    <!-- Single Footer Wid -->
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="single-footer-wid">
+
+                            <ul>
+                                <li><a href="terms.html">سياسة الخصوصية</a></li>
+                                <li><a href="catigories.html">التصنيفات</a></li>
+                                <li><a href="index.html">اتصل بنا</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- footer widget area end -->
+
+        <!-- footer copyright -->
+        <div class="footer-copyright-wrap">
+            <div class="container">
+                <div class="row">
+                    <!-- copyright text -->
+                    <div class="col-md-12">
+                        <div class="footer-copyright">
+                            <p>&copy; 2021 By <span>Be Group.</span> All Rights Reserved.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer Area Wrapper end -->
+
+
+
+
+    <!-- Scroll to top -->
+    <button class="scrollToTop"><i class="fas fa-chevron-up"></i></button>
+
+
+
+
+
+
+
+    <script>
+        //Header and Search animation no homepage
+        window.onload = function() {
+            window.onscroll = function() {
+                var homeSearchPos = document.getElementById("middle-block").offsetTop;
+                var y = window.pageYOffset;
+                var d = document.getElementById("search_home");
+                var windowwidth = window.innerWidth;
+                if (y > homeSearchPos && windowwidth > 969) {
+                    if (d.className.indexOf("sticky") == -1) {
+                        d.className = d.className + " sticky";
+                    }
+                } else if (y < homeSearchPos && windowwidth > 969) {
+                    d.className = "search home";
+                }
+                if (y > homeSearchPos && windowwidth <= 969) {
+                    var homeSearchPos1 = $('.side-block.right').offset().top - 50;
+                    var homeAddspos = $('.ads-top').offset().top - 50;
+                    var $w = $(document).scroll(function() {
+                        if ($w.scrollTop() > homeSearchPos1 || $w.scrollTop() > homeAddspos) {
+                            $('.middle-block .search').addClass('inside search-onMobile');
+                            $('.middle-block .search').removeClass('home sticky');
+                        } else {
+                            $('.middle-block .search').removeClass('inside search-onMobile');
+                            $('.middle-block .search').addClass('home');
+                        }
+                    });
+                }
+            }; //end window.onscroll
+        }; //end window.onload
+
+    </script>
+
+    <!-- All js file -->
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- Main Js file -->
+    <script src="js/script.jqueryall.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
